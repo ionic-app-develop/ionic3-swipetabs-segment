@@ -14,32 +14,16 @@
 
 ### 项目截图:
 
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/1.PNG" width="320px" style="display:inline;"> 
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/2.PNG" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/1.PNG" width="320px" style="display:inline;"> 
+<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/2.PNG" width="320px" style="display:inline;">
 
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/3.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/4.PNG" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/3.PNG" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/4.PNG" width="320px" style="display:inline;">
 
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/5.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/6.PNG" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/5.PNG" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/6.PNG" width="320px" style="display:inline;">
 
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/7.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/8.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/9.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/10.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/11.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/1.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/12.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/13.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/14.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/15.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/16.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic2-preview/blob/master/www/assets/img/screenshots/17.PNG" width="320px" style="display:inline;">
+<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/7.PNG" width="320px" style="display:inline;">
 
 ### 项目地址：
 https://github.com/Alex-0407/ionic2-preview
