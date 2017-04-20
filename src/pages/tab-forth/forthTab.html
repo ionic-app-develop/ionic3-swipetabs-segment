@@ -1,0 +1,59 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title class="toolbar-md-title-text-align">
+      tab-forth
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list *ngIf="!username">
+    <!-- <ion-list-header>
+        
+    </ion-list-header> -->
+
+    <ion-item-divider color="light"></ion-item-divider>
+
+    <ion-item (click)="onLogin()">
+      <ion-icon name="md-person" item-left class="icon-color"></ion-icon>
+        <p>test8</p>
+        <span>登录帐号:</span>test8
+      <ion-icon name="ios-arrow-forward" item-right></ion-icon>
+    </ion-item>
+
+    <ion-item-divider color="light"></ion-item-divider>
+
+    <ion-item (click)="onLogin()">
+      <ion-icon name="ios-settings-outline" class="icon-color"></ion-icon>
+        设置
+      <ion-icon name="ios-arrow-forward" item-right></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="ios-create-outline" class="icon-color"></ion-icon>
+        意见反馈
+      <ion-icon name="ios-arrow-forward" item-right></ion-icon>
+    </ion-item>
+    <ion-item>
+      <ion-icon name="ios-more-outline" class="icon-color"></ion-icon>
+        关于
+      <ion-icon name="ios-arrow-forward" item-right></ion-icon>
+    </ion-item>
+
+    <ion-item-divider color="light"></ion-item-divider>
+
+    <button ion-button block (click)="logout()"><ion-icon name="ios-arrow-dropright-outline" class="icon-color"></ion-icon><span style="margin-left: 5px;">退出应用</span></button>
+
+  </ion-list>
+
+  <div padding-top text-center *ngIf="username">
+    <img src="http://www.gravatar.com/avatar?d=mm&s=140" alt="avatar">
+    <h2>{{username}}</h2>
+
+    <ion-list inset>
+      <button ion-item (click)="updatePicture()">Update Picture</button>
+      <button ion-item (click)="changeUsername()">Change Username</button>
+      <button ion-item (click)="changePassword()">Change Password</button>
+      <button ion-item (click)="logout()">Logout</button>
+    </ion-list>
+  </div>
+</ion-content>

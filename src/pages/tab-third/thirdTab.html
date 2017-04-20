@@ -1,0 +1,92 @@
+<ion-header no-shadow no-border>
+  <ion-navbar>
+    <ion-title class="toolbar-md-title-text-align">tab-third</ion-title>
+  </ion-navbar>
+  <ion-toolbar color="light">
+    <ion-segment color="dark">
+      <ion-segment-button style="border:none;" (click)="select(0)" [ngClass]="{SKactiveSegment: selected===0}">
+        first
+      </ion-segment-button>
+      <ion-segment-button  style="border:none;"  (click)="select(1)" [ngClass]="{SKactiveSegment: selected===1}">
+        second
+      </ion-segment-button>
+      <ion-segment-button  style="border:none;"  (click)="select(2)" [ngClass]="{SKactiveSegment: selected===2}">
+        third
+      </ion-segment-button>
+    </ion-segment>
+    <div id='indicator'class="indicatorSegment" >  
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content has-bouncing="false">
+  
+<ion-slides
+
+(pan)="panEvent($event)"
+ #mySlider (ionDrag)="onSlideChanged($event)"
+ >
+  <ion-slide>
+    <ion-content class="fixed-content">
+      <ion-list *ngIf="selected_segment===0">
+       <h1>
+         This is the first page
+       </h1>
+      <!-- <button ion-button (click)="pushPage()">Push page</button> -->
+      <p>
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut faucibus mauris et sapien fermentum vehicula. Cras consectetur, nisi vel elementum viverra, turpis nibh tempor lacus, sit amet faucibus mi ex lobortis tellus. Aenean lobortis, augue et laoreet vehicula, arcu massa molestie mauris, vitae ullamcorper enim tortor vel ligula. Suspendisse quis facilisis leo, nec tempus tortor. Sed quis faucibus nisi. Cras molestie ornare aliquam. Integer faucibus commodo mauris a tempor. Aliquam rhoncus magna vulputate erat posuere sagittis. Vivamus tincidunt finibus ante quis condimentum. Vestibulum eget elit sed sapien suscipit aliquam ut nec ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget erat turpis. Nunc vitae maximus augue, et lacinia sapien.
+      </p>
+      </ion-list>
+
+      <ion-list *ngIf="selected_segment===1">
+       <h1>
+         This is the second page
+       </h1>
+      <!-- <button ion-button (click)="pushPage()">Push page</button> -->
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et iaculis mauris. Nunc blandit viverra enim vehicula efficitur. Sed neque neque, tempus ac molestie non, blandit ut eros. Cras vulputate id nunc eget efficitur. Maecenas a dictum orci. Nullam sodales et est in euismod. Ut eget nibh consequat, molestie metus in, tristique lacus. Phasellus a elementum lectus. Morbi cursus mauris dapibus odio convallis convallis. Nulla et nisi nec augue consectetur rhoncus. Ut in tellus sit amet eros bibendum placerat ut a mi.
+      </p>
+      </ion-list>
+
+      <ion-footer no-shadow no-border style="position: fixed; bottom: 0px;">
+        <ion-toolbar color="light">
+          <ion-segment [(ngModel)]="segment">
+            <ion-segment-button value="sites" (click)="select_segment(0)">
+              segment-first
+            </ion-segment-button>
+            <ion-segment-button value="devices" (click)="select_segment(1)">
+              segment-second
+            </ion-segment-button>
+          </ion-segment>
+        </ion-toolbar>
+      </ion-footer>
+    </ion-content>
+  </ion-slide>
+  <ion-slide>
+    <ion-scroll scrollY="true" class="fixed-content">
+      <ion-list>
+        <ion-list-header>
+            Ionic 2 Accordion Example.
+        </ion-list-header>
+        <div *ngFor="let d of data_group">
+        <ion-item icon-left padding class="header" (click)="toggleDetails(d)">
+          <ion-icon color="primary" [name]="d.icon"></ion-icon>
+            <span style="margin-left: 24px;">{{d.title}}</span>         
+        </ion-item>
+        <div *ngIf="d.showDetails">
+        <ion-item padding  *ngFor="let det of d.details">           
+            <span style="margin-left: 24px;">{{det.a}}</span>        
+        </ion-item>
+        </div>
+       </div>
+      </ion-list>
+    </ion-scroll>
+  </ion-slide>
+  <ion-slide>
+    <ion-scroll scrollY="true" class="fixed-content">
+      <h1>TAB3</h1>
+    </ion-scroll>
+  </ion-slide>
+
+</ion-slides>
+</ion-content>
