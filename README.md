@@ -7,7 +7,7 @@
 
 ### Installation & Development
 
-1. clone this repo: `git clone git@github.com:Alex-0407/ionic3-swipetabs-segment.git`
+1. clone this repo: `git clone https://github.com/Alex-0407/ionic3-swipetabs-segment.git`
 2. `cd ionic3-swipetabs-segment`
 3. `npm install`
 4. run `ionic serve` from a terminal
