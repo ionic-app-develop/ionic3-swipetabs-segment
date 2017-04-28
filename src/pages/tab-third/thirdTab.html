@@ -3,19 +3,17 @@
     <ion-title class="toolbar-md-title-text-align">tab-third</ion-title>
   </ion-navbar>
   <ion-toolbar color="light">
-    <ion-segment color="dark">
-      <ion-segment-button style="border:none;" (click)="select(0)" [ngClass]="{SKactiveSegment: selected===0}">
-        first
+    <ion-segment class="top_segment" [(ngModel)]="top_segment">
+      <ion-segment-button (click)="select(0)" value="top_0">
+        top1
       </ion-segment-button>
-      <ion-segment-button  style="border:none;"  (click)="select(1)" [ngClass]="{SKactiveSegment: selected===1}">
-        second
+      <ion-segment-button (click)="select(1)" value="top_1">
+        top2
       </ion-segment-button>
-      <ion-segment-button  style="border:none;"  (click)="select(2)" [ngClass]="{SKactiveSegment: selected===2}">
-        third
+      <ion-segment-button (click)="select(2)" value="top_2">
+        top3
       </ion-segment-button>
     </ion-segment>
-    <div id='indicator'class="indicatorSegment" >  
-    </div>
   </ion-toolbar>
 </ion-header>
 
@@ -52,10 +50,10 @@
         <ion-toolbar color="light">
           <ion-segment [(ngModel)]="segment">
             <ion-segment-button value="sites" (click)="select_segment(0)">
-              segment-first
+              first
             </ion-segment-button>
             <ion-segment-button value="devices" (click)="select_segment(1)">
-              segment-second
+              second
             </ion-segment-button>
           </ion-segment>
         </ion-toolbar>

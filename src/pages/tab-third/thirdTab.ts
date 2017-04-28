@@ -15,9 +15,8 @@ export class ThirdTabPage {
 
 	@ViewChild('mySlider') slider: Slides;
 
-	private selected = 0;
 	private selected_segment = 0;
-	private indicator = null;
+	top_segment = 'top_0';
 	segment = 'sites';
 
 	rootNavCtrl: NavController;
@@ -39,24 +38,17 @@ export class ThirdTabPage {
 
 	data_group: Array<{id:number, title: string, details: any, icon: string, showDetails: boolean}> = [];
 
-	ngAfterViewInit() 
-	{
-		this.indicator = document.getElementById("indicator");
-		if (this.platform.is('windows')) 
-		{
-		  this.indicator.style.opacity = '0';
-		}
-	}
-
 	select(index) 
 	{
-		this.selected = index;
-		if (index === 2)
-		  this.indicator.style.webkitTransform = 'translate3d(200%,0,0)';
-		if (index === 1)
-		  this.indicator.style.webkitTransform = 'translate3d(100%,0,0)';
-		if (index === 0)
-		  this.indicator.style.webkitTransform = 'translate3d(0%,0,0)';
+		if (index === 2){
+			this.top_segment = 'top_2';
+		}
+		if (index === 1){
+			this.top_segment = 'top_1';
+		}
+		if (index === 0){
+			this.top_segment = 'top_0';
+		}
 		this.slider.slideTo(index, 500);
 	}
 
@@ -75,7 +67,6 @@ export class ThirdTabPage {
 		else 
 		{
 		  //console.log("OK Direction");
-		  this.indicator.style.webkitTransform = 'translate3d(' + (-($event.translate) / 4) + 'px,0,0)';
 		}
 
 	}
@@ -83,20 +74,14 @@ export class ThirdTabPage {
 	panEvent(e) 
 	{
 		let currentIndex = this.slider.getActiveIndex();
-		if (currentIndex === 2) 
-		{
-		  this.selected = 2;
-		  this.indicator.style.webkitTransform = 'translate3d(200%,0,0)';
+		if (currentIndex === 2){
+		  this.top_segment = 'top_2';
 		}
-		if (currentIndex === 1) 
-		{
-		  this.selected = 1;
-		  this.indicator.style.webkitTransform = 'translate3d(100%,0,0)';
+		if (currentIndex === 1){
+		  this.top_segment = 'top_1';
 		}
-		if (currentIndex === 0) 
-		{
-		  this.selected = 0;
-		  this.indicator.style.webkitTransform = 'translate3d(0%,0,0)';
+		if (currentIndex === 0){
+		  this.top_segment = 'top_0';
 		}
 	}
 

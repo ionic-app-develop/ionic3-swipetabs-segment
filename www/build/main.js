@@ -57180,7 +57180,7 @@ var PageToPushPage = (function () {
 }());
 PageToPushPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-page-to-push',template:/*ion-inline-start:"E:\ionic3\ionic3-start\src\pages\page-to-push\page-to-push.html"*/'<!--\n  Generated template for the PageToPush page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>PageToPush</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  I\'m just any page that you can open in a modal, or push using your NavController.\n\n</ion-content>\n'/*ion-inline-end:"E:\ionic3\ionic3-start\src\pages\page-to-push\page-to-push.html"*/
+        selector: 'page-page-to-push',template:/*ion-inline-start:"D:\github\ionic3-swipetabs-segment\src\pages\page-to-push\page-to-push.html"*/'<!--\n  Generated template for the PageToPush page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>PageToPush</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  I\'m just any page that you can open in a modal, or push using your NavController.\n\n</ion-content>\n'/*ion-inline-end:"D:\github\ionic3-swipetabs-segment\src\pages\page-to-push\page-to-push.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
 ], PageToPushPage);
@@ -57214,7 +57214,7 @@ var FirstTabPage = (function () {
 }());
 FirstTabPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-firstTab',template:/*ion-inline-start:"E:\ionic3\ionic3-start\src\pages\tab-first\firstTab.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">tab-firt</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>tab-firt!</h2>\n</ion-content>\n'/*ion-inline-end:"E:\ionic3\ionic3-start\src\pages\tab-first\firstTab.html"*/
+        selector: 'page-firstTab',template:/*ion-inline-start:"D:\github\ionic3-swipetabs-segment\src\pages\tab-first\firstTab.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">tab-firt</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>tab-firt!</h2>\n</ion-content>\n'/*ion-inline-end:"D:\github\ionic3-swipetabs-segment\src\pages\tab-first\firstTab.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], FirstTabPage);
@@ -57265,7 +57265,7 @@ var ForthTabPage = (function () {
 }());
 ForthTabPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-forthTab',template:/*ion-inline-start:"E:\ionic3\ionic3-start\src\pages\tab-forth\forthTab.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">\n      tab-forth\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list *ngIf="!username">\n    <!-- <ion-list-header>\n        \n    </ion-list-header> -->\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <ion-item (click)="onLogin()">\n      <ion-icon name="md-person" item-left class="icon-color"></ion-icon>\n        <p>test8</p>\n        <span>登录帐号:</span>test8\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <ion-item (click)="onLogin()">\n      <ion-icon name="ios-settings-outline" class="icon-color"></ion-icon>\n        设置\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="ios-create-outline" class="icon-color"></ion-icon>\n        意见反馈\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="ios-more-outline" class="icon-color"></ion-icon>\n        关于\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <button ion-button block (click)="logout()"><ion-icon name="ios-arrow-dropright-outline" class="icon-color"></ion-icon><span style="margin-left: 5px;">退出应用</span></button>\n\n  </ion-list>\n\n  <div padding-top text-center *ngIf="username">\n    <img src="http://www.gravatar.com/avatar?d=mm&s=140" alt="avatar">\n    <h2>{{username}}</h2>\n\n    <ion-list inset>\n      <button ion-item (click)="updatePicture()">Update Picture</button>\n      <button ion-item (click)="changeUsername()">Change Username</button>\n      <button ion-item (click)="changePassword()">Change Password</button>\n      <button ion-item (click)="logout()">Logout</button>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\ionic3\ionic3-start\src\pages\tab-forth\forthTab.html"*/
+        selector: 'page-forthTab',template:/*ion-inline-start:"D:\github\ionic3-swipetabs-segment\src\pages\tab-forth\forthTab.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">\n      tab-forth\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list *ngIf="!username">\n    <!-- <ion-list-header>\n        \n    </ion-list-header> -->\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <ion-item (click)="onLogin()">\n      <ion-icon name="md-person" item-left class="icon-color"></ion-icon>\n        <p>test8</p>\n        <span>登录帐号:</span>test8\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <ion-item (click)="onLogin()">\n      <ion-icon name="ios-settings-outline" class="icon-color"></ion-icon>\n        设置\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="ios-create-outline" class="icon-color"></ion-icon>\n        意见反馈\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n    <ion-item>\n      <ion-icon name="ios-more-outline" class="icon-color"></ion-icon>\n        关于\n      <ion-icon name="ios-arrow-forward" item-right></ion-icon>\n    </ion-item>\n\n    <ion-item-divider color="light"></ion-item-divider>\n\n    <button ion-button block (click)="logout()"><ion-icon name="ios-arrow-dropright-outline" class="icon-color"></ion-icon><span style="margin-left: 5px;">退出应用</span></button>\n\n  </ion-list>\n\n  <div padding-top text-center *ngIf="username">\n    <img src="http://www.gravatar.com/avatar?d=mm&s=140" alt="avatar">\n    <h2>{{username}}</h2>\n\n    <ion-list inset>\n      <button ion-item (click)="updatePicture()">Update Picture</button>\n      <button ion-item (click)="changeUsername()">Change Username</button>\n      <button ion-item (click)="changePassword()">Change Password</button>\n      <button ion-item (click)="logout()">Logout</button>\n    </ion-list>\n  </div>\n</ion-content>\n'/*ion-inline-end:"D:\github\ionic3-swipetabs-segment\src\pages\tab-forth\forthTab.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], ForthTabPage);
@@ -57299,7 +57299,7 @@ var SecondTabPage = (function () {
 }());
 SecondTabPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-secondTab',template:/*ion-inline-start:"E:\ionic3\ionic3-start\src\pages\tab-second\secondTab.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">\n      tab-second\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>tab-second</h2>\n</ion-content>\n'/*ion-inline-end:"E:\ionic3\ionic3-start\src\pages\tab-second\secondTab.html"*/
+        selector: 'page-secondTab',template:/*ion-inline-start:"D:\github\ionic3-swipetabs-segment\src\pages\tab-second\secondTab.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">\n      tab-second\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <h2>tab-second</h2>\n</ion-content>\n'/*ion-inline-end:"D:\github\ionic3-swipetabs-segment\src\pages\tab-second\secondTab.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], SecondTabPage);
@@ -57334,9 +57334,8 @@ var ThirdTabPage = (function () {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
         this.platform = platform;
-        this.selected = 0;
         this.selected_segment = 0;
-        this.indicator = null;
+        this.top_segment = 'top_0';
         this.segment = 'sites';
         this.data_group = [];
         this.rootNavCtrl = navParams.get('rootNavCtrl');
@@ -57351,20 +57350,16 @@ var ThirdTabPage = (function () {
             });
         }
     }
-    ThirdTabPage.prototype.ngAfterViewInit = function () {
-        this.indicator = document.getElementById("indicator");
-        if (this.platform.is('windows')) {
-            this.indicator.style.opacity = '0';
-        }
-    };
     ThirdTabPage.prototype.select = function (index) {
-        this.selected = index;
-        if (index === 2)
-            this.indicator.style.webkitTransform = 'translate3d(200%,0,0)';
-        if (index === 1)
-            this.indicator.style.webkitTransform = 'translate3d(100%,0,0)';
-        if (index === 0)
-            this.indicator.style.webkitTransform = 'translate3d(0%,0,0)';
+        if (index === 2) {
+            this.top_segment = 'top_2';
+        }
+        if (index === 1) {
+            this.top_segment = 'top_1';
+        }
+        if (index === 0) {
+            this.top_segment = 'top_0';
+        }
         this.slider.slideTo(index, 500);
     };
     ThirdTabPage.prototype.select_segment = function (index) {
@@ -57377,22 +57372,18 @@ var ThirdTabPage = (function () {
         }
         else {
             //console.log("OK Direction");
-            this.indicator.style.webkitTransform = 'translate3d(' + (-($event.translate) / 4) + 'px,0,0)';
         }
     };
     ThirdTabPage.prototype.panEvent = function (e) {
         var currentIndex = this.slider.getActiveIndex();
         if (currentIndex === 2) {
-            this.selected = 2;
-            this.indicator.style.webkitTransform = 'translate3d(200%,0,0)';
+            this.top_segment = 'top_2';
         }
         if (currentIndex === 1) {
-            this.selected = 1;
-            this.indicator.style.webkitTransform = 'translate3d(100%,0,0)';
+            this.top_segment = 'top_1';
         }
         if (currentIndex === 0) {
-            this.selected = 0;
-            this.indicator.style.webkitTransform = 'translate3d(0%,0,0)';
+            this.top_segment = 'top_0';
         }
     };
     ThirdTabPage.prototype.toggleDetails = function (data) {
@@ -57416,7 +57407,7 @@ __decorate([
 ], ThirdTabPage.prototype, "slider", void 0);
 ThirdTabPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({
-        selector: 'page-thirdTab',template:/*ion-inline-start:"E:\ionic3\ionic3-start\src\pages\tab-third\thirdTab.html"*/'<ion-header no-shadow no-border>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">tab-third</ion-title>\n  </ion-navbar>\n  <ion-toolbar color="light">\n    <ion-segment color="dark">\n      <ion-segment-button style="border:none;" (click)="select(0)" [ngClass]="{SKactiveSegment: selected===0}">\n        first\n      </ion-segment-button>\n      <ion-segment-button  style="border:none;"  (click)="select(1)" [ngClass]="{SKactiveSegment: selected===1}">\n        second\n      </ion-segment-button>\n      <ion-segment-button  style="border:none;"  (click)="select(2)" [ngClass]="{SKactiveSegment: selected===2}">\n        third\n      </ion-segment-button>\n    </ion-segment>\n    <div id=\'indicator\'class="indicatorSegment" >  \n    </div>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content has-bouncing="false">\n  \n<ion-slides\n\n(pan)="panEvent($event)"\n #mySlider (ionDrag)="onSlideChanged($event)"\n >\n  <ion-slide>\n    <ion-content class="fixed-content">\n      <ion-list *ngIf="selected_segment===0">\n       <h1>\n         This is the first page\n       </h1>\n      <!-- <button ion-button (click)="pushPage()">Push page</button> -->\n      <p>\n        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut faucibus mauris et sapien fermentum vehicula. Cras consectetur, nisi vel elementum viverra, turpis nibh tempor lacus, sit amet faucibus mi ex lobortis tellus. Aenean lobortis, augue et laoreet vehicula, arcu massa molestie mauris, vitae ullamcorper enim tortor vel ligula. Suspendisse quis facilisis leo, nec tempus tortor. Sed quis faucibus nisi. Cras molestie ornare aliquam. Integer faucibus commodo mauris a tempor. Aliquam rhoncus magna vulputate erat posuere sagittis. Vivamus tincidunt finibus ante quis condimentum. Vestibulum eget elit sed sapien suscipit aliquam ut nec ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget erat turpis. Nunc vitae maximus augue, et lacinia sapien.\n      </p>\n      </ion-list>\n\n      <ion-list *ngIf="selected_segment===1">\n       <h1>\n         This is the second page\n       </h1>\n      <!-- <button ion-button (click)="pushPage()">Push page</button> -->\n      <p>\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et iaculis mauris. Nunc blandit viverra enim vehicula efficitur. Sed neque neque, tempus ac molestie non, blandit ut eros. Cras vulputate id nunc eget efficitur. Maecenas a dictum orci. Nullam sodales et est in euismod. Ut eget nibh consequat, molestie metus in, tristique lacus. Phasellus a elementum lectus. Morbi cursus mauris dapibus odio convallis convallis. Nulla et nisi nec augue consectetur rhoncus. Ut in tellus sit amet eros bibendum placerat ut a mi.\n      </p>\n      </ion-list>\n\n      <ion-footer no-shadow no-border style="position: fixed; bottom: 0px;">\n        <ion-toolbar color="light">\n          <ion-segment [(ngModel)]="segment">\n            <ion-segment-button value="sites" (click)="select_segment(0)">\n              segment-first\n            </ion-segment-button>\n            <ion-segment-button value="devices" (click)="select_segment(1)">\n              segment-second\n            </ion-segment-button>\n          </ion-segment>\n        </ion-toolbar>\n      </ion-footer>\n    </ion-content>\n  </ion-slide>\n  <ion-slide>\n    <ion-scroll scrollY="true" class="fixed-content">\n      <ion-list>\n        <ion-list-header>\n            Ionic 2 Accordion Example.\n        </ion-list-header>\n        <div *ngFor="let d of data_group">\n        <ion-item icon-left padding class="header" (click)="toggleDetails(d)">\n          <ion-icon color="primary" [name]="d.icon"></ion-icon>\n            <span style="margin-left: 24px;">{{d.title}}</span>         \n        </ion-item>\n        <div *ngIf="d.showDetails">\n        <ion-item padding  *ngFor="let det of d.details">           \n            <span style="margin-left: 24px;">{{det.a}}</span>        \n        </ion-item>\n        </div>\n       </div>\n      </ion-list>\n    </ion-scroll>\n  </ion-slide>\n  <ion-slide>\n    <ion-scroll scrollY="true" class="fixed-content">\n      <h1>TAB3</h1>\n    </ion-scroll>\n  </ion-slide>\n\n</ion-slides>\n</ion-content>\n'/*ion-inline-end:"E:\ionic3\ionic3-start\src\pages\tab-third\thirdTab.html"*/
+        selector: 'page-thirdTab',template:/*ion-inline-start:"D:\github\ionic3-swipetabs-segment\src\pages\tab-third\thirdTab.html"*/'<ion-header no-shadow no-border>\n  <ion-navbar>\n    <ion-title class="toolbar-md-title-text-align">tab-third</ion-title>\n  </ion-navbar>\n  <ion-toolbar color="light">\n    <ion-segment class="top_segment" [(ngModel)]="top_segment">\n      <ion-segment-button (click)="select(0)" value="top_0">\n        top1\n      </ion-segment-button>\n      <ion-segment-button (click)="select(1)" value="top_1">\n        top2\n      </ion-segment-button>\n      <ion-segment-button (click)="select(2)" value="top_2">\n        top3\n      </ion-segment-button>\n    </ion-segment>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content has-bouncing="false">\n  \n<ion-slides\n\n(pan)="panEvent($event)"\n #mySlider (ionDrag)="onSlideChanged($event)"\n >\n  <ion-slide>\n    <ion-content class="fixed-content">\n      <ion-list *ngIf="selected_segment===0">\n       <h1>\n         This is the first page\n       </h1>\n      <!-- <button ion-button (click)="pushPage()">Push page</button> -->\n      <p>\n        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut faucibus mauris et sapien fermentum vehicula. Cras consectetur, nisi vel elementum viverra, turpis nibh tempor lacus, sit amet faucibus mi ex lobortis tellus. Aenean lobortis, augue et laoreet vehicula, arcu massa molestie mauris, vitae ullamcorper enim tortor vel ligula. Suspendisse quis facilisis leo, nec tempus tortor. Sed quis faucibus nisi. Cras molestie ornare aliquam. Integer faucibus commodo mauris a tempor. Aliquam rhoncus magna vulputate erat posuere sagittis. Vivamus tincidunt finibus ante quis condimentum. Vestibulum eget elit sed sapien suscipit aliquam ut nec ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget erat turpis. Nunc vitae maximus augue, et lacinia sapien.\n      </p>\n      </ion-list>\n\n      <ion-list *ngIf="selected_segment===1">\n       <h1>\n         This is the second page\n       </h1>\n      <!-- <button ion-button (click)="pushPage()">Push page</button> -->\n      <p>\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et iaculis mauris. Nunc blandit viverra enim vehicula efficitur. Sed neque neque, tempus ac molestie non, blandit ut eros. Cras vulputate id nunc eget efficitur. Maecenas a dictum orci. Nullam sodales et est in euismod. Ut eget nibh consequat, molestie metus in, tristique lacus. Phasellus a elementum lectus. Morbi cursus mauris dapibus odio convallis convallis. Nulla et nisi nec augue consectetur rhoncus. Ut in tellus sit amet eros bibendum placerat ut a mi.\n      </p>\n      </ion-list>\n\n      <ion-footer no-shadow no-border style="position: fixed; bottom: 0px;">\n        <ion-toolbar color="light">\n          <ion-segment [(ngModel)]="segment">\n            <ion-segment-button value="sites" (click)="select_segment(0)">\n              first\n            </ion-segment-button>\n            <ion-segment-button value="devices" (click)="select_segment(1)">\n              second\n            </ion-segment-button>\n          </ion-segment>\n        </ion-toolbar>\n      </ion-footer>\n    </ion-content>\n  </ion-slide>\n  <ion-slide>\n    <ion-scroll scrollY="true" class="fixed-content">\n      <ion-list>\n        <ion-list-header>\n            Ionic 2 Accordion Example.\n        </ion-list-header>\n        <div *ngFor="let d of data_group">\n        <ion-item icon-left padding class="header" (click)="toggleDetails(d)">\n          <ion-icon color="primary" [name]="d.icon"></ion-icon>\n            <span style="margin-left: 24px;">{{d.title}}</span>         \n        </ion-item>\n        <div *ngIf="d.showDetails">\n        <ion-item padding  *ngFor="let det of d.details">           \n            <span style="margin-left: 24px;">{{det.a}}</span>        \n        </ion-item>\n        </div>\n       </div>\n      </ion-list>\n    </ion-scroll>\n  </ion-slide>\n  <ion-slide>\n    <ion-scroll scrollY="true" class="fixed-content">\n      <h1>TAB3</h1>\n    </ion-scroll>\n  </ion-slide>\n\n</ion-slides>\n</ion-content>\n'/*ion-inline-end:"D:\github\ionic3-swipetabs-segment\src\pages\tab-third\thirdTab.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */]])
 ], ThirdTabPage);
@@ -57458,7 +57449,7 @@ var TabsPage = (function () {
     return TabsPage;
 }());
 TabsPage = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({template:/*ion-inline-start:"E:\ionic3\ionic3-start\src\pages\tabs\tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="first" tabIcon="ios-checkmark-circle-outline"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="second" tabIcon="ios-home-outline"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="third" tabIcon="ios-analytics-outline"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="forth" tabIcon="person"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"E:\ionic3\ionic3-start\src\pages\tabs\tabs.html"*/
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({template:/*ion-inline-start:"D:\github\ionic3-swipetabs-segment\src\pages\tabs\tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="first" tabIcon="ios-checkmark-circle-outline"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="second" tabIcon="ios-home-outline"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="third" tabIcon="ios-analytics-outline"></ion-tab>\n  <ion-tab [root]="tab4Root" tabTitle="forth" tabIcon="person"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"D:\github\ionic3-swipetabs-segment\src\pages\tabs\tabs.html"*/
     }),
     __metadata("design:paramtypes", [])
 ], TabsPage);
@@ -104728,7 +104719,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({template:/*ion-inline-start:"E:\ionic3\ionic3-start\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"E:\ionic3\ionic3-start\src\app\app.html"*/
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["K" /* Component */])({template:/*ion-inline-start:"D:\github\ionic3-swipetabs-segment\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"D:\github\ionic3-swipetabs-segment\src\app\app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);

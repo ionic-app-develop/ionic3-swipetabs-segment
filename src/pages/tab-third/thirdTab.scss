@@ -2,20 +2,8 @@ page-thirdTab {
   $header-color-bg: #eee;
   $animation-duration: 0.4s;
 
-	.SKactiveSegment
-    {
-        color:#66CCFF !important;
-    }
-    .indicatorSegment
-    {
-        -webkit-transition: 0.3s all;
-        -moz-transition:  0.3s all;
-        -o-transition:  0.3s all;
-        transition:  0.3s all;
-        transform-origin: top 0 left 0;
-        width:33%;
-        height:2px;
-        background-color:#66CCFF !important;;
+	  .top_segment{
+      color: #66CCFF;
     }
     ion-list {
     ion-item {

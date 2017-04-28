@@ -26789,17 +26789,8 @@ fab-toolbar.closed {
         }
     }
 }*/
-page-thirdTab .SKactiveSegment {
-  color: #66CCFF !important;
-}
-
-page-thirdTab .indicatorSegment {
-  transition: 0.3s all;
-  -webkit-transform-origin: top 0 left 0;
-  transform-origin: top 0 left 0;
-  width: 33%;
-  height: 2px;
-  background-color: #66CCFF !important;
+page-thirdTab .top_segment {
+  color: #66CCFF;
 }
 
 page-thirdTab ion-list ion-item {
