@@ -12,18 +12,9 @@
 3. `npm install`
 4. run `ionic serve` from a terminal
 
-### 项目截图:
+### 效果预览
 
-<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/1.PNG" width="320px" style="display:inline;"> 
-<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/2.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/3.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/4.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/5.PNG" width="320px" style="display:inline;">
-<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/6.PNG" width="320px" style="display:inline;">
-
-<img src="https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/src/assets/img/7.PNG" width="320px" style="display:inline;">
+![动态图](https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/www/assets/img/slide.gif?raw=true)
 
 ### 项目地址：
 https://github.com/Alex-0407/ionic2-preview
