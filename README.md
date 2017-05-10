@@ -17,7 +17,7 @@
 ![动态图](https://github.com/Alex-0407/ionic3-swipetabs-segment/blob/master/www/assets/img/slide.gif?raw=true)
 
 ### 项目地址：
-https://github.com/Alex-0407/ionic2-preview
+https://github.com/Alex-0407/ionic3-swipetabs-segment
 
 #### Ionic 2 学习资源
 * [Beginners Guide to Getting Started with Ionic 2](http://www.joshmorony.com/beginners-guide-to-getting-started-with-ionic-2/)
